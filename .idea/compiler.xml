@@ -17,7 +17,6 @@
         <module name="yacoding-dongbao-ums-api" />
         <module name="yacoding-dongbao-cms" />
         <module name="yacoding-dongbao-application" />
-        <module name="yacoding-dongbao-generator" />
         <module name="yacoding-dongbao-common-util" />
         <module name="yacoding-dongbao-portal-web" />
         <module name="yacoding-dongbao-cart" />
