@@ -1,13 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
-      <module name="yacoding-dongbao-api" target="1.8" />
-    </bytecodeTargetLevel>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yacoding-dongbao-common-base" />
+        <module name="yacoding-dongbao-pay-api" />
+        <module name="yacoding-dongbao-manager-web" />
+        <module name="yacoding-dongbao-pms-api" />
+        <module name="yacoding-dongbao-cms-api" />
+        <module name="yacoding-dongbao-dictionary-api" />
+        <module name="yacoding-dongbao-pay" />
+        <module name="yacoding-dongbao-ums-api" />
+        <module name="yacoding-dongbao-cms" />
+        <module name="yacoding-dongbao-application" />
+        <module name="yacoding-dongbao-generator" />
+        <module name="yacoding-dongbao-common-util" />
+        <module name="yacoding-dongbao-portal-web" />
+        <module name="yacoding-dongbao-cart" />
+        <module name="yacoding-dongbao-oms" />
+        <module name="yacoding-dongbao-oms-api" />
+        <module name="yacoding-dongbao-pms" />
+        <module name="yacoding-dongbao-tenant" />
+        <module name="yacoding-dongbao-sms" />
+        <module name="yacoding-dongbao-dictionary" />
+        <module name="yacoding-dongbao-cart-api" />
+        <module name="yacoding-dongbao-sms-api" />
+        <module name="yacoding-dongbao-ums" />
+      </profile>
+    </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="yacoding-dongbao-api" options="-parameters" />
+      <module name="yacoding-dongbao-application" options="-parameters" />
+      <module name="yacoding-dongbao-cart" options="-parameters" />
+      <module name="yacoding-dongbao-cart-api" options="-parameters" />
+      <module name="yacoding-dongbao-cms" options="-parameters" />
+      <module name="yacoding-dongbao-cms-api" options="-parameters" />
+      <module name="yacoding-dongbao-common" options="-parameters" />
+      <module name="yacoding-dongbao-common-base" options="-parameters" />
+      <module name="yacoding-dongbao-common-util" options="-parameters" />
+      <module name="yacoding-dongbao-dictionary" options="-parameters" />
+      <module name="yacoding-dongbao-dictionary-api" options="-parameters" />
+      <module name="yacoding-dongbao-generator" options="-parameters" />
+      <module name="yacoding-dongbao-manager-web" options="-parameters" />
+      <module name="yacoding-dongbao-oms" options="-parameters" />
+      <module name="yacoding-dongbao-oms-api" options="-parameters" />
+      <module name="yacoding-dongbao-pay" options="-parameters" />
+      <module name="yacoding-dongbao-pay-api" options="-parameters" />
+      <module name="yacoding-dongbao-pms" options="-parameters" />
+      <module name="yacoding-dongbao-pms-api" options="-parameters" />
+      <module name="yacoding-dongbao-portal-web" options="-parameters" />
+      <module name="yacoding-dongbao-service" options="-parameters" />
+      <module name="yacoding-dongbao-sms" options="-parameters" />
+      <module name="yacoding-dongbao-sms-api" options="-parameters" />
+      <module name="yacoding-dongbao-tenant" options="-parameters" />
+      <module name="yacoding-dongbao-ums" options="-parameters" />
+      <module name="yacoding-dongbao-ums-api" options="-parameters" />
     </option>
   </component>
 </project>
