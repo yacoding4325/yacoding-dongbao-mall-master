@@ -24,5 +24,6 @@
     <file url="file://$PROJECT_DIR$/yacoding-dongbao-service/yacoding-dongbao-sms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yacoding-dongbao-service/yacoding-dongbao-tenant/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yacoding-dongbao-service/yacoding-dongbao-ums/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yacoding-dongbao-service/yacoding-dongbao-ums/src/main/resources" charset="UTF-8" />
   </component>
 </project>
